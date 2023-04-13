@@ -1,0 +1,23 @@
+class Solution {
+public:
+
+    string removeStars(string s) 
+    {   
+        string tempS = "";
+        for(int i = 0; i < s.size(); i++)
+        {
+            if(s[i] == '*')
+            {   
+                if(tempS.size() > 0)
+                {
+                    tempS.pop_back();
+                }
+                
+            }
+            else{
+                tempS.push_back(s[i]);
+            }
+        }
+        return tempS;
+    }
+}; 
