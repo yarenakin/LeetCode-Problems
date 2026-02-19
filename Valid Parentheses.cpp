@@ -1,5 +1,5 @@
 /*
-  YAREN AKIN DENEK
+  YAREN AKIN 
   6.12.2022
 */
 
